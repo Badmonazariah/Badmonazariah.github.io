@@ -1,14 +1,17 @@
-
+.white{
+  color:black;
+}
 ul#menu li a{
     background-color: black;
     color: white;
     padding: 10px 60px;
-    text-decoration: none;
     border-radius: 10px 10px 0 0;
 
 }
-li{
+
+#menu li{
   display: inline;
+  text-decoration: none;
 }
 #one{
   width:100%;
@@ -18,7 +21,8 @@ li{
 
 
 h1 {
-    font-size: 40px;
+    font-size: 60px;
+    text-align: left;
   }
 
 
@@ -27,13 +31,21 @@ h2 {
 font-size: 50px;
 }
 
-body {
-    background-image: url("four.png");
-    background-color: #000000;
+#six{
+  width:90%;
+  height:300px;
+
 }
+
+
+
 
 
 
 a:hover, a:active   {
   background-color: green;
+}
+
+u {
+  text-decoration: none;
 }
